@@ -1,5 +1,4 @@
-import shortener from "./structures/shortenClient";
+import CtgsClient from "./structures/shortenClient";
 
-export default {
-    CtgsClient: shortener
-}
+export default CtgsClient;
+export { CtgsClient };
