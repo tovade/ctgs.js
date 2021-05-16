@@ -3,9 +3,9 @@
 ## Creating an short url
 
 ```js
-const { Client } = require("ctgs.js");
+const { CtgsClient } = require("ctgs.js");
 
-const shortener = new Client();
+const shortener = new CtgsClient();
 
 //whatever ur doing
 
@@ -16,9 +16,9 @@ await shortener.new("tovade", "https://github.com/tovade");
 ## Getting the url of an slug
 
 ```js
-const { Client } = require("ctgs.js");
+const { CtgsClient } = require("ctgs.js");
 
-const shortener = new Client();
+const shortener = new CtgsClient();
 
 //whatever ur doing
 
